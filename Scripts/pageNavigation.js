@@ -1,20 +1,20 @@
 let pageStack = []
 
 function RedirectTo(inputPagename){
-    // Backbutton implementation
-    if (inputPagename == "BACK"){
-        // Get previous page from stack
-        pagename = pageStack.pop()
-        // Redirect to page if exists
-        if (pagename != undefined){
-            window.location.pathname = "/" + pagename
-        }
-
-    }else{
-        //Adds pagename to stack
+        // Add page to stack
         pageStack.push(inputPagename)
-        //Redirects to page
+        // Navigate to page
         window.location.pathname = "/" + inputPagename   
     }
-    
+
+function NavigateBack(){
+    // Get previous page from stack
+    pagename = pageStack.pop()
+    // If no previous page, return to index
+    if (pagename == undefined){
+        window.location.pathname = "/index"
+    }else{
+        // Else navigate to previous page 
+        window.location.pathname = "/" + pagename
+    }
 }
