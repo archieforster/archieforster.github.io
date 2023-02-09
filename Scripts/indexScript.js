@@ -1,3 +1,3 @@
-function RedirectAboutMe(){
-    window.location.pathname = "/aboutmepage"
+function RedirectTo(pagename){
+    window.location.pathname = "/" + pagename
 }
