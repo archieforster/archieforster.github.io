@@ -1,1 +1,3 @@
-window.location.pathname = "\mainpage"
+function RedirectAboutMe(){
+    window.location.pathname = "/aboutmepage"
+}
