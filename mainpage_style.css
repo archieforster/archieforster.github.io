@@ -1,0 +1,15 @@
+p {
+    /* Font */
+    
+    font-size: 12px;
+
+}
+
+.NavigationBar{
+    background-color: yellowgreen;
+}
+
+.NavigationBar a {
+    font-size: 16px;
+    color: blueviolet;
+}
