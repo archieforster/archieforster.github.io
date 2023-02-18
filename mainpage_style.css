@@ -5,6 +5,8 @@ p {
 
 }
 
+/* Navigation Bar */
+
 .NavigationBar{
     background-color: yellowgreen;
 }
@@ -12,4 +14,15 @@ p {
 .NavigationBar a {
     font-size: 16px;
     color: blueviolet;
+}
+
+/* WebRing Links */
+
+.WebRingLinks{
+    background-color: chocolate;
+}
+
+.WebRingLinks a {
+    font-size: 16px;
+    color: cyan;
 }
