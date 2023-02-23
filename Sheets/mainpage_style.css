@@ -1,0 +1,55 @@
+
+
+body {
+    margin: 0.5%;
+    font-family: rubik;
+
+}
+
+/* Font */
+@font-face {
+    font-family: rubik;
+    src: url(./Rubik-VariableFont_wght.ttf);
+}
+
+/* Navigation Bar */
+
+.navigation-bar{
+    border-style: groove;
+    border-width: 4px;
+
+    height: 60px;
+    background-color: rgb(88, 76, 101);
+
+    padding: 10px;
+}
+
+.navigation-bar a, b {
+    font-size: 45px;
+    color: rgb(250, 250, 250);
+
+    padding: 0px 45px;
+}
+
+
+/* Short About Me Section */
+
+.about-me-short{
+    background-color: rgb(100, 100, 100);
+    color: ghostwhite;
+}
+
+.about-me-short a{
+    color: ghostwhite;
+}
+
+/* WebRing Links */
+
+.webring-links{
+    background-color: chocolate;
+}
+
+.webring-links a {
+    font-size: 16px;
+    color: cyan;
+}

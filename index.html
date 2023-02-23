@@ -5,25 +5,41 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="mainpage_style.css">
+        <link rel="stylesheet" href="Sheets/mainpage_style.css">
 
         <title>NAMEPLACEHOLDER</title>
     </head>
 
     <body>
 
-        <div class="NavigationBar">
-            <a href="/index.html">Home</a>
-            <a href="/aboutpage.html">About Me</a>
+        <div class="navigation-bar">
+            <b>HOME</b> <b> | </b>
+            <b>ABOUT ME</b> <b> | </b>
+            <b>MY PROJECTS</b> <b> | </b>
+            <b>CV</b>
         </div>
 
-        <div class="AboutMeShort">
+        <div class="about-me-short">
+            <link rel="stylesheet" href="Sheets/animated_slides.css">
+            <script src="/Scripts/AnimatedSlides.js">ShowNextSlide()</script>
+
+            <div class="about-me-slides-containter">
+                <div class="about-me-slides-images fade">
+                    <img src="/Images/image1.jpeg" alt="AboutMeImage1">
+                    <img src="/Images/image2.jpeg" alt="AboutMeImage2">
+                    <img src="/Images/image3.jpeg" alt="AboutMeImage3">
+                </div>
+                
+                <a class="next-slide-button" onclick="ShowNextSlide()">&#10097;</a>
+                <a class="prev-slide-button" onclick="ShowPreviousSlide()">&#10096;</a>
+            </div>
+
             <h1>About Me</h1>
             <p> I'm Archie Forster, an undergraduate at The University of Edinburgh studying Computer Science. </p>
             <a href="/aboutpage.html">Learn More</a>
         </div>
 
-        <div class="WebRingLinks">
+        <div class="webring-links">
             <a href="https://paulinagerch.uk"> <-- Paulina Hbf.</a>
             <a href="https://wiets.dev">Wiets Centraal --> </a>
         </div>
