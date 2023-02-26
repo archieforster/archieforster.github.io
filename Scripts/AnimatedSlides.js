@@ -1,6 +1,7 @@
 let slideIndex = 0
 let slides = document.getElementsByClassName("about-me-slides-images")
-
+console.log("Images collected:")
+console.log(slides.length);
 function ShowFirstSlide(){
     // Hides all slides
     for (let i = 0; i < slides.length; i++){
