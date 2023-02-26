@@ -27,7 +27,7 @@ function ShowNextSlide(){
 function ShowPreviousSlide(){
     console.log("Displaying previous slide")
     // Calculate next slide index using Modulo
-    prevSlideIndex = (slideIndex - 1) % slides.length
+    prevSlideIndex = (((slideIndex - 1) % slides.length) + slides.length) % slides.length
 
     // Remove previous slide and display next one
     slides[slideIndex].style.display = "none"
