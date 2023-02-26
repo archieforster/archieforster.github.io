@@ -10,7 +10,7 @@
 .about-me-slides-button{
     cursor: pointer;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 
 
     color: white;
@@ -21,7 +21,7 @@
 }
 
 .about-me-slides-button:hover{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .next-button{
@@ -32,3 +32,11 @@
 
 }
 
+.fade{
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade{
+    from {opacity: 0.4;} to {opacity: 1} ;
+}
