@@ -1,8 +1,8 @@
 let slideIndex = 0
 let slides = document.getElementsByClassName("about-me-slides-images")
-console.log("Images collected:")
-console.log(slides.length);
+
 function ShowFirstSlide(){
+    console.log("Displaying first slide")
     // Hides all slides
     for (let i = 0; i < slides.length; i++){
         slides[i].style.display = "none"
@@ -12,6 +12,7 @@ function ShowFirstSlide(){
 }
 
 function ShowNextSlide(){
+    console.log("Displaying next slide")
     // Calculate next slide index using Modulo
     nextSlideIndex = (slideIndex + 1) % slides.length
 
@@ -24,6 +25,7 @@ function ShowNextSlide(){
 }
 
 function ShowPreviousSlide(){
+    console.log("Displaying previous slide")
     // Calculate next slide index using Modulo
     prevSlideIndex = (slideIndex - 1) % slides.length
 
