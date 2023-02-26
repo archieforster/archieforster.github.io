@@ -7,3 +7,28 @@
 
 }
 
+.about-me-slides-button{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+    border-radius: 3px;
+}
+
+.about-me-slides-button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.next-button{
+
+}
+
+.previous-button{
+
+}
+

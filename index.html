@@ -21,17 +21,18 @@
 
         <div class="about-me-short">
             <link rel="stylesheet" href="Sheets/animated_slides.css">
-            <script src="/Scripts/AnimatedSlides.js">ShowNextSlide()</script>
+            <script src="/Scripts/AnimatedSlides.js"></script>
 
             <div class="about-me-slides-containter">
                 <div class="about-me-slides-images image-attachment fade">
                     <img src="/Images/image1.jpeg" alt="AboutMeImage1">
                     <img src="/Images/image2.jpeg" alt="AboutMeImage2">
                     <img src="/Images/image3.jpeg" alt="AboutMeImage3">
+                    <script>ShowFirstSlide()</script>
                 </div>
                 
-                <a class="next-slide-button" onclick="ShowNextSlide()">&#10097;</a>
-                <a class="prev-slide-button" onclick="ShowPreviousSlide()">&#10096;</a>
+                <a class="about-me-slides-button next-button" onclick="ShowNextSlide()">&#10097;</a>
+                <a class="about-me-slides-button previous-button" onclick="ShowPreviousSlide()">&#10096;</a>
             </div>
 
             <h1>About Me</h1>

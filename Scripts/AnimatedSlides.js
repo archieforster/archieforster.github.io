@@ -1,6 +1,10 @@
 let slideIndex = 0
 let slides = document.getElementsByClassName("about-me-slides-images")
 
+function ShowFirstSlide(){
+    // Sets first slide to be displayed
+    slides[0].style.display = "block"
+}
 
 function ShowNextSlide(){
     // Calculate next slide index using Modulo
