@@ -2,6 +2,10 @@ let slideIndex = 0
 let slides = document.getElementsByClassName("about-me-slides-images")
 
 function ShowFirstSlide(){
+    // Hides all slides
+    for (let i = 0; i < slides.length; i++){
+        slides[i].style.display = "none"
+    }
     // Sets first slide to be displayed
     slides[0].style.display = "block"
 }
