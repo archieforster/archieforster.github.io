@@ -1,9 +1,8 @@
 
-
 body {
-    margin: 0.5%;
+    margin: 0.75%;
+    background-color: rgb(179, 157, 202);
     font-family: rubik;
-
 }
 
 /* Font */
@@ -12,30 +11,41 @@ body {
     src: url(./Rubik-VariableFont_wght.ttf);
 }
 
+/* Images/GIFs General Properties*/
+.image-attachment{
+    border: 5px;
+    border: ridge;
+}
+
 /* Navigation Bar */
-
 .navigation-bar{
-    border-style: groove;
-    border-width: 4px;
 
-    height: 60px;
+    margin-bottom: 20px;
+
+    border: groove;
+    border-width: 10px;
+
+    height: 55px;
     background-color: rgb(88, 76, 101);
 
     padding: 10px;
 }
 
 .navigation-bar a, b {
+    margin-left: 5%;
     font-size: 45px;
     color: rgb(250, 250, 250);
-
-    padding: 0px 45px;
 }
 
 
 /* Short About Me Section */
-
 .about-me-short{
-    background-color: rgb(100, 100, 100);
+    border: groove;
+    border-width: 10px;
+
+    padding: 20px;
+
+    background-color: rgb(120, 103, 137);
     color: ghostwhite;
 }
 
