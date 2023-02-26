@@ -1,9 +1,13 @@
 .about-me-slides-images{
     display: none;
+    height: 100%;
+    width: 100%;
 }
 
 .about-me-slides-container{
     margin: 5px;
+    max-width: 1000px;
+    max-height: 500px;
     float: left;
 
 }
