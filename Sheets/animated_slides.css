@@ -4,6 +4,7 @@
 
 .about-me-slides-container{
     margin: 5px;
+    float: left;
 
 }
 
@@ -12,6 +13,7 @@
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
 
+    top: 50%;
 
     color: white;
     font-weight: bold;
@@ -25,18 +27,10 @@
 }
 
 .next-button{
-
+    right: 10%;
 }
 
 .previous-button{
+    left: 10%;
 
-}
-
-.fade{
-    animation-name: fade;
-    animation-duration: 1s;
-}
-
-@keyframes fade{
-    from {opacity: 0.4;} to {opacity: 1} ;
 }
