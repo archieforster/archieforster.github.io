@@ -4,10 +4,10 @@
     width: 100%;
 }
 
-.about-me-slides-container{
+.about-me-slides-container div{
     margin: 5px;
-    max-width: 1000px;
-    max-height: 500px;
+    max-width: 100px;
+    max-height: 100px;
     float: left;
 
 }
