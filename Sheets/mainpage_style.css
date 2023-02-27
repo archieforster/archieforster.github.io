@@ -52,12 +52,9 @@ body {
     padding: 20px;
 
     background-color: rgb(120, 103, 137);
-    color: ghostwhite;
+    color: rgb(250, 250, 250);
 }
 
-.about-me-short a{
-    color: ghostwhite;
-}
 
 /* WebRing Links */
 

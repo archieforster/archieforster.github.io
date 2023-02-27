@@ -4,7 +4,7 @@
     width: 100%;
 }
 
-.about-me-slides-container div{
+.about-me-slides-container {
     margin: 5px;
     max-width: 100px;
     max-height: 100px;
@@ -14,20 +14,22 @@
 
 .about-me-slides-button{
     cursor: pointer;
+
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(250, 250, 250);
+    border-radius: 3px;
+    border: groove;
+    border-width: 6px;
 
     top: 50%;
 
-    color: white;
+    color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
     font-size: 18px;
-
-    border-radius: 3px;
 }
 
 .about-me-slides-button:hover{
-    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 1);
 }
 
 .next-button{
