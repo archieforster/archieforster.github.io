@@ -20,19 +20,25 @@ body {
 /* Navigation Bar */
 .navigation-bar{
 
+    display: flex;
+    flex-wrap: wrap;
+    
     margin-bottom: 20px;
 
     border: groove;
     border-width: 10px;
 
-    height: 55px;
+    min-height: 55px;
     background-color: rgb(88, 76, 101);
 
     padding: 10px;
 }
 
 .navigation-bar a, b {
-    margin-left: 5%;
+    flex-grow: 1;
+    padding: 0px 10px;
+
+    text-align: center;
     font-size: 45px;
     color: rgb(250, 250, 250);
 }
