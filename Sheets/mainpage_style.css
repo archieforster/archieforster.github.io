@@ -46,6 +46,8 @@ body {
 
 /* Short About Me Section */
 .about-me-short{
+    display: flex;
+
     border: groove;
     border-width: 10px;
 

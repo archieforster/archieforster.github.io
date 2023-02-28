@@ -1,15 +1,13 @@
-.about-me-slides-images{
-    display: none;
-    height: 100%;
-    width: 100%;
-}
-
 .about-me-slides-container {
     margin: 5px;
     max-width: 100px;
     max-height: 100px;
     float: left;
 
+}
+
+.about-me-slides-images{
+    display: none;
 }
 
 .about-me-slides-button{
