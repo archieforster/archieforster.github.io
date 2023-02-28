@@ -1,9 +1,6 @@
+/* About Me Slides */
 .about-me-slides-container {
     margin: 5px;
-    max-width: 100px;
-    max-height: 100px;
-    float: left;
-
 }
 
 .about-me-slides-images{
@@ -36,5 +33,4 @@
 
 .previous-button{
     left: 10%;
-
 }
