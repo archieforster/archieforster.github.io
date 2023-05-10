@@ -52,10 +52,11 @@ body {
 
     padding: 20px;
 
-    background-color: rgb(120, 103, 137);
+    background-color: rgb(130, 112, 148);
 }
 
 .about-me-text{
+    padding: 0px 40px;
     color: rgb(250, 250, 250);
 }
 
