@@ -1,6 +1,6 @@
 /* Whole Body */
 body {
-    margin: 0.75%;
+    margin: 1%;
     background-color: rgb(179, 157, 202);
     font-family: rubik;
 }
@@ -21,25 +21,25 @@ body {
 .navigation-bar{
     display: flex;
     flex-wrap: wrap;
+
+    min-height: 55px;
+    background-color: rgb(88, 76, 101);
     
-    margin-bottom: 20px;
+    margin-bottom: 1%;
 
     border: groove;
     border-width: 10px;
 
-    min-height: 55px;
-    background-color: rgb(88, 76, 101);
-
-    padding: 10px;
-}
-
-.navigation-bar a, b {
-    flex-grow: 1;
-    padding: 0px 10px;
+    padding: 0.25%;
 
     text-align: center;
     font-size: 45px;
     color: rgb(250, 250, 250);
+}
+
+.navigation-bar a {
+    flex-grow: 2;
+    font-weight: bold;
 }
 
 
@@ -50,13 +50,14 @@ body {
     border: groove;
     border-width: 10px;
 
-    padding: 20px;
+    padding: 0.25%;
 
     background-color: rgb(130, 112, 148);
 }
 
 .about-me-text{
-    padding: 0px 40px;
+
+    min-width: 50%;
     color: rgb(250, 250, 250);
 }
 
