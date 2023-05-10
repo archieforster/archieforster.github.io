@@ -1,6 +1,8 @@
 /* About Me Slides */
 .about-me-slides-container {
-    width: 50%;
+    max-width: 50%;
+    min-width: 25%;
+    min-height: 25%;
 
     padding: 0.25%;
 }
@@ -21,7 +23,7 @@
     top: 50%;
 
     cursor: pointer;
-    
+
     color: rgba(0, 0, 0, 0.6);
     font-weight: bold;
     font-size: 18px;

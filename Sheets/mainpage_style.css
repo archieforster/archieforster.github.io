@@ -42,6 +42,10 @@ body {
     font-weight: bold;
 }
 
+.navigation-bar b {
+    flex-grow: 1;
+}
+
 
 /* Short About Me Section */
 .about-me-short{
@@ -56,7 +60,6 @@ body {
 }
 
 .about-me-text{
-
     min-width: 50%;
     color: rgb(250, 250, 250);
 }
