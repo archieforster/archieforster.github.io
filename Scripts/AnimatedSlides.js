@@ -1,5 +1,5 @@
 let slideIndex = 0
-let slides = document.getElementsByClassName("about-me-slides-images")
+let slides = document.getElementsByClassName("about-me-slides")
 
 function ShowFirstSlide(){
     console.log("Displaying first slide")
