@@ -1,7 +1,8 @@
+/*
 * {
     border: 2px solid red;
 }
-
+*/
 /* Font */
 @font-face {
     font-family: rubik;
@@ -28,19 +29,39 @@ nav {
     text-align: center;
     font-size: 45px;
     font-weight: bold;
+
+    padding: 10px 5px;
+    background-color: #0a014b;
 }
 
-nav a {
+nav a, nav a:active {
     flex: 3 1;
 
+    text-decoration: none;
+    color: rgb(235, 235, 245);
+    padding: 0px 5px;
+
+    transition: 0.15s all;
+}
+
+nav a:hover, nav a:focus {
+    font-weight: bolder;
+    letter-spacing: 0.05rem;
+    color: rgb(255, 255, 255);
 }
 
 nav b {
     flex: 1 3;
+
+    color: rgb(235, 235, 245);
 }
 
 
 /* About Me Section */
+#about-me-section {
+    margin: 30px 20px;
+}
+
 .about-me{
     display: flex;
 }
@@ -48,33 +69,35 @@ nav b {
 .about-me-text{
     flex-grow: 3;
     
+    margin: 0px 30px;
 }
 
 /* About Me Slides */
 .about-me-slides-container {
     flex-grow: 1;
+    position: relative;
 
     max-width: 350px;
     min-width: 200px;
-    max-height: 300px;
+    max-height: 225px;
     min-height: 155px;
-    
 }
 
-.about-me-slides-container a{
-
+.about-me-slides-container button{
+    position: absolute;
+    bottom: 5%;
 }
 
-.about-me-slides-container a:hover{
+.about-me-slides-container button:hover{
 
 }
 
 .previous-button{
-    
+    left: 5%;
 }
 
 .next-button{
-    
+    right: 5%;
 }
 
 .about-me-slides{
