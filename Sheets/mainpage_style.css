@@ -17,6 +17,18 @@ body {
     background-size: cover;
 }
 
+/* Adjust flex directions for mobile */
+@media only screen and (max-width: 600px) {
+    nav b {
+        display: none;
+    }
+
+    nav, .about-me {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* Images/GIFs General Properties*/
 .image-attachment{
 
@@ -118,14 +130,14 @@ nav b {
     font-weight: bold;
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     transition: 0.15s all;
 }
 
 .about-me-slides-container button:hover{
     font-weight: bolder;
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .previous-button{
